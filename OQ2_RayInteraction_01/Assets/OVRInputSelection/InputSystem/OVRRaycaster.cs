@@ -31,7 +31,6 @@ namespace ControllerSelection {
 
         [NonSerialized]
         private Canvas m_Canvas;
-
         private Canvas canvas {
             get {
                 if (m_Canvas != null)

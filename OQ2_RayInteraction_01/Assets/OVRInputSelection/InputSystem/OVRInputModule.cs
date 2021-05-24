@@ -129,7 +129,7 @@ namespace ControllerSelection
         protected OVRInputModule()
         {}
 
-        protected override void Reset()
+        protected new void Reset()
         {
             allowActivationOnMobileDevice = true;
         }
