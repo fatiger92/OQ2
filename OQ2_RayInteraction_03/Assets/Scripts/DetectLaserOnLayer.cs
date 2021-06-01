@@ -11,7 +11,7 @@ public class DetectLaserOnLayer : MonoBehaviour
 
     void Start()
     {
-        m_raycastCanvas.enabled = true;
+        //m_raycastCanvas.enabled = true;
     }
 
     void Update()
@@ -20,7 +20,7 @@ public class DetectLaserOnLayer : MonoBehaviour
         // if the hand trigger is pressed
         if (m_handRight > 0.9f)
         {
-            if (CustomLaserPointer.m_instance.LaserHit())
+            if (Custom2dLaserPointer.m_instance.LaserHit())
             {
                 PrintDebug();
             }
@@ -29,7 +29,9 @@ public class DetectLaserOnLayer : MonoBehaviour
 
     public void PrintDebug()
     {
-        RaycastHit hit = CustomLaserPointer.m_instance.getHit();
+        //RaycastHit hit = Custom2dLaserPointer.m_instance.getHit(); //3d
+         RaycastHit2D hit = Custom2dLaserPointer.m_instance.getHit(); //2d
+
         m_raycastText_01.text = $"Raycast location on layer :: {hit.point.ToString()}";
     }
 }

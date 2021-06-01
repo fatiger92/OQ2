@@ -7,6 +7,7 @@ TagManager:
   - raycastCanvas
   - image
   - button
+  - ColorSelector
   layers:
   - Default
   - TransparentFX
