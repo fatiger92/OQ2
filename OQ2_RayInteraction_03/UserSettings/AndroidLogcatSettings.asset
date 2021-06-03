@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "1WMHH8259V0407",
         "name": "com.DefaultCompany.OQ2_RayInteraction_03",
-        "processId": 27370,
+        "processId": 28963,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -108,6 +108,12 @@
             "deviceId": "1WMHH8259V0407",
             "name": "com.DefaultCompany.OQ2_RayInteraction_03",
             "processId": 27370,
+            "exited": false
+        },
+        {
+            "deviceId": "1WMHH8259V0407",
+            "name": "com.DefaultCompany.OQ2_RayInteraction_03",
+            "processId": 28963,
             "exited": false
         }
     ],

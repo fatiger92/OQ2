@@ -37,7 +37,7 @@ public class Custom2dLaserPointer : MonoBehaviour
         Ray ray = new Ray(m_handTransform.transform.position,m_handTransform.forward);
         hit = Physics2D.GetRayIntersection(ray);
 
-        if (hit.collider != null)
+        if (hit)
         {
             // if laser hits the layer return ture;
             if (hit.collider.gameObject.tag == "ColorSelector" || hit.collider.gameObject.tag == "image") return true;
