@@ -141,3 +141,4 @@ Received Import Request.
 Start importing Assets/Scripts/Custom2dLaserPointer.cs using Guid(403e0aaa7d58b4d49a83488001a8f0e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02de6c64b838e049fb38c48bfa576d08') in 0.004389 seconds
   Import took 0.007124 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
